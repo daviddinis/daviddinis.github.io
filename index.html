@@ -10,18 +10,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <h1 class="text-center">Mar A Vista</h1>
+    <br>
+    <h1 class="text-center display-1">Mar A Vista</h1>
+    <br>
+    <div class="d-flex flex-fill">
+        <button class="btn px-auto btn-dark  flex-fill" onclick="openSandes()" id="sandes">sandes</button>
+        <button class="btn mx-2 btn-light  flex-fill" onclick="openEntradas()" id="entradas">entradas</button>
+        <button class="btn mx-2 btn-light  flex-fill" onclick="openSopas()" id="sopas">sopas</button>
+        <button class="btn mx-2 btn-light  flex-fill" onclick="openOmoletes()" id="omoletes">omoletes</button>
+        <button class="btn mx-2 btn-light  flex-fill" onclick="openPeixe()" id="peixe">peixe</button>
+        <button class="btn mx-2 btn-light  flex-fill" onclick="openCarne()" id="carne">carnes</button>
+    </div>
     <br>
     <div class="container w-100 px-0 " id="PT">
-        <h2 class="text-center">Sandes</h2>
-        <div class="row w-100 mx-auto" id="sandes">
+        <h2 class="text-center sandes display-4">Sandes</h2>
+        <div class="row w-100 mx-auto" >
             
             <div class="col">
                 Sandes de atum<br>
@@ -59,9 +69,8 @@
                 6.00€<br>
             </div>
         </div>
-        <br>
-        <h2 class="text-center">Entradas</h2>
-        <div class="row w-100 mx-auto" id="sandes">
+        <h2 class="text-center entradas d-none display-4">Entradas</h2>
+        <div class="row w-100 mx-auto d-none" >
             
             <div class="col">
                 Gambas à moda da casa<br>
@@ -84,9 +93,8 @@
                 4.00€<br>
             </div>
         </div>
-        <br>
-        <h2 class="text-center">Sopas</h2>
-        <div class="row w-100 mx-auto" id="sandes">
+        <h2 class="text-center sopas d-none display-4">Sopas</h2>
+        <div class="row w-100 mx-auto d-none">
             
             <div class="col">
                 Sopa de peixe<br>
@@ -99,9 +107,8 @@
                 2.90€<br>
             </div>
         </div>
-        <br>
-        <h2 class="text-center">Omoletes</h2>
-        <div class="row w-100 mx-auto" id="sandes">
+        <h2 class="text-center omoletes d-none display-4">Omoletes</h2>
+        <div class="row w-100 mx-auto d-none" >
             
             <div class="col">
                 Omolete de camarão<br>
@@ -114,9 +121,8 @@
                 6.00€<br>
             </div>
         </div>
-        <br>
-        <h2 class="text-center">Peixe</h2>
-        <div class="row w-100 mx-auto" id="sandes">
+        <h2 class="text-center peixe d-none display-4">Peixe</h2>
+        <div class="row w-100 mx-auto d-none">
             
             <div class="col">
                 Peixe do dia<br>
@@ -147,9 +153,8 @@
                 8.50€<br>
             </div>
         </div>
-        <br>
-        <h2 class="text-center">Carnes</h2>
-        <div class="row w-100 mx-auto" id="sandes">
+        <h2 class="text-center carne d-none display-4">Carnes</h2>
+        <div class="row w-100 mx-auto d-none">
             
             <div class="col">
                 Picado (por Kg)<br>
