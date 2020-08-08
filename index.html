@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -20,157 +22,226 @@
     <br>
     <h1 class="text-center display-1">Mar A Vista</h1>
     <br>
-    <div class="d-flex flex-fill">
-        <button class="btn px-auto btn-dark  flex-fill" onclick="openSandes()" id="sandes">sandes</button>
-        <button class="btn mx-2 btn-light  flex-fill" onclick="openEntradas()" id="entradas">entradas</button>
-        <button class="btn mx-2 btn-light  flex-fill" onclick="openSopas()" id="sopas">sopas</button>
-        <button class="btn mx-2 btn-light  flex-fill" onclick="openOmoletes()" id="omoletes">omoletes</button>
-        <button class="btn mx-2 btn-light  flex-fill" onclick="openPeixe()" id="peixe">peixe</button>
-        <button class="btn mx-2 btn-light  flex-fill" onclick="openCarne()" id="carne">carnes</button>
+    <div class="d-flex ">
+        <button class="btn btn-lg btn-block  mx-2 btn-dark " onclick="openSandes()" id="sandes">sandes</button>
+        <button class="btn btn-lg btn-block mx-2 btn-light  " onclick="openEntradas()" id="entradas">entradas</button>
+        <button class="btn btn-lg btn-block mx-2 btn-light  " onclick="openSopas()" id="sopas">sopas</button>
+
+
+    </div>
+    <div class="d-flex">
+        <button class="btn btn-lg btn-block mx-2 btn-light" onclick="openOmoletes()" id="omoletes">omoletes</button>
+        <button class="btn btn-lg btn-block mx-2 btn-light" onclick="openPeixe()" id="peixe">peixe</button>
+        <button class="btn btn-lg btn-block mx-2 btn-light" onclick="openCarne()" id="carne">carnes</button>
     </div>
     <br>
-    <div class="container w-100 px-0 " id="PT">
+    <div class="container-fluid w-100 px-0 " id="PT">
         <h2 class="text-center sandes display-4">Sandes</h2>
-        <div class="row w-100 mx-auto" >
-            
-            <div class="col">
-                Sandes de atum<br>
-                sandes de queijo<br>
-                Sandes de fiambre<br>
-                Sandes mista<br>
-                Bolo do caco c/ mateiga de alho<br>
-                Tosta de queijo<br>
-                Tosta de fiambre<br>
-                Tosta mista<br>
-                Torrada<br>
-                Prego no pão<br>
-                Prego no pão especial<br>
-                Prego no bolo do caco<br>
-                Prego no bolo do caco especial<br>
-                Doses: batata frita<br>
-                Prego no bolo co caco especial c/ batata frita<br>
-
+        <div class=" w-100 mx-auto">
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sandes de atum</div>
+                <div class="text-right">3.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class="">sandes de queijo</div>
+                <div class="text-right">2.25€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sandes de fiambre</div>
+                <div class="text-right">2.25€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sandes mista</div>
+                <div class="text-right">2.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Bolo do caco c/ mateiga de alho</div>
+                <div class="text-right">1.90€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Tosta de queijo</div>
+                <div class="text-right">2.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Tosta de fiambre</div>
+                <div class="text-right">2.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Tosta mista</div>
+                <div class="text-right">3.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Torrada</div>
+                <div class="text-right">1.75€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Prego no pão</div>
+                <div class="text-right">3.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Prego no pão especial</div>
+                <div class="text-right">3.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Prego no bolo do caco</div>
+                <div class="text-right">3.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Prego no bolo do caco especial</div>
+                <div class="text-right">4.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Doses: batata frita</div>
+                <div class="text-right">3.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Prego no bolo co caco especial c/ batata frita</div>
+                <div class="text-right">6.00€</div>
             </div>
             <div class="col text-right">
-                3.00€<br>
-                2.25€<br>
-                2.25€<br>
-                2.50€<br>
-                1.90€<br>
-                2.50€<br>
-                2.50€<br>
-                3.00€<br>
-                1.75€<br>
-                3.00€<br>
-                3.50€<br>
-                3.50€<br>
-                4.50€<br>
-                3.00€<br>
-                6.00€<br>
             </div>
         </div>
         <h2 class="text-center entradas d-none display-4">Entradas</h2>
-        <div class="row w-100 mx-auto d-none" >
-            
-            <div class="col">
-                Gambas à moda da casa<br>
-                Melão com presunto<br>
-                Cocktail de Camarão<br>
-                Lapas grelhadas<br>
-                Salada mista de Sardinhas<br>
-                Salada mista de atum<br>
-                Salada mista<br>
-                Salada de tomate<br>
+        <div class="w-100 mx-auto d-none">
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Gambas à moda da casa</div>
+                <div class="text-right">12.50€</div>
             </div>
-            <div class="col text-right">
-                12.50€<br>
-                7.50€<br>
-                7.50€<br>
-                6.00€<br>
-                5.50€<br>
-                5.50€<br>
-                4.50€<br>
-                4.00€<br>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Melão com presunto</div>
+                <div class="text-right">7.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Cocktail de Camarão</div>
+                <div class="text-right">7.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Lapas grelhadas</div>
+                <div class="text-right">6.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Salada mista de Sardinhas</div>
+                <div class="text-right">5.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Salada mista de atum</div>
+                <div class="text-right">5.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Salada mista</div>
+                <div class="text-right">4.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Salada de tomate</div>
+                <div class="text-right">4.00€</div>
             </div>
         </div>
         <h2 class="text-center sopas d-none display-4">Sopas</h2>
-        <div class="row w-100 mx-auto d-none">
-            
-            <div class="col">
-                Sopa de peixe<br>
-                sopa de tomate com cebola<br>
-                sopa de legumes<br>
+        <div class="w-100 mx-auto d-none">
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sopa de peixe</div>
+                <div class="text-right">3.90€</div>
             </div>
-            <div class="col text-right">
-                3.90€<br>
-                3.50€<br>
-                2.90€<br>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sopa de tomate com cebola</div>
+                <div class="text-right">3.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sopa de legumes</div>
+                <div class="text-right">2.90€</div>
             </div>
         </div>
         <h2 class="text-center omoletes d-none display-4">Omoletes</h2>
-        <div class="row w-100 mx-auto d-none" >
-            
-            <div class="col">
-                Omolete de camarão<br>
-                Omolete mista<br>
-                Omolete Simples<br>
+        <div class="w-100 mx-auto d-none">
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Omolete de camarão</div>
+                <div class="text-right">6.90€</div>
             </div>
-            <div class="col text-right">
-                6.90€<br>
-                6.50€<br>
-                6.00€<br>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Omolete mista</div>
+                <div class="text-right">6.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Omolete Simples</div>
+                <div class="text-right">6.00€</div>
             </div>
         </div>
         <h2 class="text-center peixe d-none display-4">Peixe</h2>
-        <div class="row w-100 mx-auto d-none">
-            
-            <div class="col">
-                Peixe do dia<br>
-                Arroz de marisco<br>
-                Arroz de marisco<br>
-                Caldeirada<br>
-                Bacalhau grelhado<br>
-                Rolo de espada grelhado<br>
-                filhete de espada com camarão<br>
-                grelhada mista de peixe<br>
-                Perca grelhada<br>
-                Bife de atum à vilão<br>
-                Filete de espada com banana<br>
-                sardinhas grelhadas<br>
+        <div class="w-100 mx-auto d-none">
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Peixe do dia</div>
+                <div class="text-right">10.50€</div>
             </div>
-            <div class="col text-right">
-                10.50€<br>
-                (1 pess.)13.00€<br>
-                (2 pess.)22.50€<br>
-                (2 pess.)22.50€<br>
-                12.50€<br>
-                10.00€<br>
-                9.50€<br>
-                9.50€<br>
-                9.50€<br>
-                8.90€<br>
-                8.75€<br>
-                8.50€<br>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Arroz de marisco</div>
+                <div class="text-right">(1 pess.)13.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Arroz de marisco</div>
+                <div class="text-right">(2 pess.)22.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Caldeirada</div>
+                <div class="text-right">(2 pess.)22.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Bacalhau grelhado</div>
+                <div class="text-right">12.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Rolo de espada grelhado</div>
+                <div class="text-right">10.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Filhete de espada com camarão</div>
+                <div class="text-right">9.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Grelhada mista de peixe</div>
+                <div class="text-right">9.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Perca grelhada</div>
+                <div class="text-right">9.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Bife de atum à vilão</div>
+                <div class="text-right">8.90€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Filete de espada com banana</div>
+                <div class="text-right">8.75€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Sardinhas grelhadas</div>
+                <div class="text-right">8.50€</div>
             </div>
         </div>
         <h2 class="text-center carne d-none display-4">Carnes</h2>
-        <div class="row w-100 mx-auto d-none">
-            
-            <div class="col">
-                Picado (por Kg)<br>
-                Espetada regional<br>
-                Bife com natas e cogumelos<br>
-                Bife da casa<br>
-                Costeletas de porco<br>
-                Frango no churrasco<br>
+        <div class="w-100 mx-auto d-none">
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Picado (por Kg)</div>
+                <div class="text-right">24.00€</div>
             </div>
-            <div class="col text-right">
-                24.00€<br>
-                10.00€<br>
-                9.50€<br>
-                9.00€<br>
-                8.50€<br>
-                7.50€<br>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Espetada regional</div>
+                <div class="text-right">10.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Bife com natas e cogumelos</div>
+                <div class="text-right">9.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Bife da casa</div>
+                <div class="text-right">9.00€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Costeletas de porco</div>
+                <div class="text-right">8.50€</div>
+            </div>
+            <div class="row card border border-dark mx-0 display-2">
+                <div class=""> Frango no churrasco</div>
+                <div class="text-right">7.50€</div>
             </div>
         </div>
     </div>
